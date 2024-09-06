@@ -4,7 +4,8 @@ const receitas = {
     "farinha leite": "Panqueca",
     "carne tomate": "Strogonoff",
     "cenoura chocolate" : " Bolo de Cenoura",
-    "frango tomate" : "Strogonoff de Frango"
+    "frango tomate" : "Strogonoff de Frango",
+    "Carne Cebola" : "Carne Acebolada",
     // Adicione mais receitas aqui
   };
   
