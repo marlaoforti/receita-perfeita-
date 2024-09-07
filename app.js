@@ -7,7 +7,7 @@ function pesquisar() {
     // se campoPesquisa for uma string sem nada
     if (!campoPesquisa){
 
-        section.innerHTML = "<p> Nada foi encotrado. Você precisa digitar algo</p>"
+        section.innerHTML = `"<p class="item-resultado" > Nada foi encotrado. Você precisa digitar algo</p>"`
         return
 
     }
@@ -51,11 +51,14 @@ function pesquisar() {
               
     }
     if (!resultados){
-        resultados = "<p> Nada foi encotrado</p>"
+        resultados = `"<p class="item-resultado"> Nada foi encotrado</p>"`
     }
 
 
     // Atualiza o conteúdo HTML da seção com os resultados construídos
     section.innerHTML = resultados;
 }
+
+
+
 
