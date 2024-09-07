@@ -20,19 +20,10 @@ body {
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color:  #0047AB; /* Cor do texto */
+    color:  #da5517; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
-
-.paragrafro {
-    font-size: 1rem; /* Tamanho da fonte */
-    font-weight: 900;
-    color:  #0e5314; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.1rem; /* Espaçamento entre letras */
-}
-
 
 /* Estiliza as seções da página */
 section {
@@ -115,7 +106,7 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: rgba(245, 247, 248, 0.8); /* Cor de fundo do rodapé */
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
     color: #45474B; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
