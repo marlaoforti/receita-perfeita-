@@ -41,6 +41,7 @@ function pesquisar() {
             <p class="descricao-meta">${dado.descricao}</p>
             <p class="descricao-meta">${dado.ingredientes}</p>
             <p class="descricao-meta">${dado. modoDePreparo}</p>
+            <a href=${dado.link} target="blank">Video da receita</a>
 
 
             
@@ -58,6 +59,7 @@ function pesquisar() {
     // Atualiza o conteúdo HTML da seção com os resultados construídos
     section.innerHTML = resultados;
 }
+
 
 
 
